@@ -2,11 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6102282-3d96-4308-8767-f93acb9ae032" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_menu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/joiamorena.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/MENU-100.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/MENU-100.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_caracteristica.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_caracteristica.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_content.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_content.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_joia.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_joia.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_menu.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/adorno_menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/banner_home.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/banner_home.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/bg_menu.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/bg_menu.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/galeria_1.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/galeria_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/i_play.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/i_play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_1.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_2.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_3.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_4.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_5.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_6.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/icon_6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_1.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_3.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_4.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_5.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_6.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_7.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/img-caracteristicas_7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/logo_anden.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/logo_anden.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/logo_joiamorena.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/logo_joiamorena.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/logo_unnu.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/logo_unnu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/mapa_como_llegar.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/mapa_como_llegar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/mapa_como_llegar.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/mapa_como_llegar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/mapa_joia.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/mapa_joia.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/video360.png" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/img/video360.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/global.css" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/joiamorena/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/joiamorena/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +99,7 @@
             <entry file="file://$PROJECT_DIR$/../oriongpe/wp-content/themes/oriongpe/page-contacto.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="425">
-                  <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="89" />
+                  <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="89" />
                   <folding />
                 </state>
               </provider>
@@ -96,8 +122,8 @@
           <file leaf-file-name="global.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wp-content/themes/joiamorena/global.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="554" column="8" lean-forward="false" selection-start-line="554" selection-start-column="8" selection-end-line="554" selection-end-column="8" />
+                <state relative-caret-position="261">
+                  <caret line="581" column="20" lean-forward="false" selection-start-line="581" selection-start-column="20" selection-end-line="581" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -231,12 +257,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532548501719</updated>
-      <workItem from="1532548510907" duration="62053000" />
+      <workItem from="1532548510907" duration="62819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62053000" />
+    <option name="totallyTimeSpent" value="62819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -283,7 +309,7 @@
     <entry file="file://$PROJECT_DIR$/../oriongpe/wp-content/themes/oriongpe/page-contacto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="89" />
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="89" />
           <folding />
         </state>
       </provider>
@@ -340,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/joiamorena/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="554" column="8" lean-forward="false" selection-start-line="554" selection-start-column="8" selection-end-line="554" selection-end-column="8" />
+        <state relative-caret-position="261">
+          <caret line="581" column="20" lean-forward="false" selection-start-line="581" selection-start-column="20" selection-end-line="581" selection-end-column="20" />
           <folding />
         </state>
       </provider>

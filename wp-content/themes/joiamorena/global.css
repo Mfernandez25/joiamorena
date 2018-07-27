@@ -481,7 +481,7 @@ button:focus {
 }
 .menu-responsive.open{height: 100vh;}
 .menu{
-    padding-left: o; list-style: none; text-align: center;}
+    padding-left: 0; list-style: none; text-align: center;}
 .menu a{font-family: 'BreeSerif-Regular', sans-serif; color: #565607; font-size: 28px;}
 .menu a img{width: 50px; opacity: 0;}
 .menu a:hover{text-decoration: none; color: #979700;}
@@ -577,5 +577,8 @@ button:focus {
         font-family: 'BreeSerif-Regular', sans-serif;
         margin-bottom: 10px;
         margin-top: 25px;
+    }
+    .menu a img {
+        width: 39px;
     }
 }
