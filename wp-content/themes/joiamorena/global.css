@@ -12,15 +12,61 @@ body{font-size: 14px; font-family: 'Raleway-Light', sans-serif; color: #070505; 
     transform: rotate(-90deg);
 }
 p{margin-bottom: 5px;}
+*{
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;}
 
-.header-banner{height: 662px; background-position: center center !important; background-size: cover!important;}
-.header-banner::after{content: ""; width: 100%; height: 100%; position: absolute; background: rgba(86, 86, 7, .45); top: 0; left: 0;}
-.header-banner .box-logo{border: 3px solid #DB9025; z-index: 3; color: #fff; padding: 30px 15px 15px; font-family: 'BreeSerif-Regular', sans-serif; margin-top: 100px;}
+.header-banner{height: 662px; overflow: hidden; background-position: center center !important; background-size: cover!important;}
+.header-banner::after{content: ""; width: 100%; height: 100%; position: absolute; background: rgba(86, 86, 7, .45); background: rgba(92, 53, 5, .1); top: 0; left: 0;}
+.header-banner .box-logo{border: 3px solid #565607; background: rgba(86, 86, 7, .52); z-index: 3; color: #fff; padding: 30px 15px 15px; font-family: 'BreeSerif-Regular', sans-serif; margin-top: 100px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s !important;
+    width: 300px;
+    height: 400px;
+}
 .header-banner .box-logo span{display: block; text-align: center; font-size: 36px;
     line-height: 1;  }
+.header-banner .box-logo:hover{
+    width: 100%;
+    height: 138%;
+    margin-top: -100px;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    display: flex;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
 .header-banner .box-logo .logo{width: 250px;}
 .header-banner .box-logo .img-adorno{width: 135px;}
 .header-banner .box-logo .frase{margin-top: 120px;}
+.list-buttoms{padding: 0; position: fixed; z-index: 4;
+    top: 50%;
+    right: 10px;
+    list-style: none;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%); }
+.list-buttoms li a{
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 14px; display: block;}
+.list-buttoms li a:hover{
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    -ms-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
 video{
     width: 100%;
 }
@@ -45,16 +91,17 @@ section{padding: 80px 0 30px; position: relative;}
     right: -25px;
     bottom: 95px;
     width: 110px;}
-.section-bienvenido .row-items{background: #565607; color: #fff; padding-bottom: 5px;     margin-top: 50px;}
+.section-bienvenido .row-items{font-size: 15px; background: #565607; color: #fff; padding-bottom: 5px;     margin-top: 50px;}
 .section-bienvenido .row-items img{
     margin-top: 20px;
 }
 .section-caracteriscticas .container-caracteristicas{
-    height: 420px;
+    height: 480px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas{
     -ms-flex: 0 0 14.222%;
@@ -64,6 +111,7 @@ section{padding: 80px 0 30px; position: relative;}
     background-repeat: no-repeat!important;
     background-position: center;
     position: relative;
+    height: 100%;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas::after{
     content: "";
@@ -76,23 +124,23 @@ section{padding: 80px 0 30px; position: relative;}
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-1{
     background: url('img/img-caracteristicas_1.jpg');
-    background-position-x: -42px;
+    background-position-x: -54px;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-2{
     background: url('img/img-caracteristicas_2.jpg');
-    background-position-x: -246px;
+    background-position-x: -298px;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-3{
     background: url('img/img-caracteristicas_3.jpg');
-    background-position-x: -300px;
+    background-position-x: -357px;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-4{
     background: url('img/img-caracteristicas_4.jpg');
-    background-position-x: -235px;
+    background-position-x: -277px;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-5{
     background: url('img/img-caracteristicas_5.jpg');
-    background-position-x: -278px;
+    background-position-x: -319px;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-6{
     background: url('img/img-caracteristicas_6.jpg');
@@ -100,7 +148,21 @@ section{padding: 80px 0 30px; position: relative;}
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas-7{
     background: url('img/img-caracteristicas_7.jpg');
-    background-position-x: -30px;
+    background-position-x: -70px;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas .content-caracteristicas{
+    display: none;
+
+}
+.section-caracteriscticas .container-caracteristicas:hover .box-caracteristica{
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    width: 228px;
+    color: #fff;
+    z-index: 4;
+    font-size: 15px;
+    float: right;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas .title-caracteristicas{
     color: #fff;
@@ -111,6 +173,91 @@ section{padding: 80px 0 30px; position: relative;}
     transform: rotate(-90deg);
     width: 319px;
     left: -140px;
+    z-index: 4;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas:hover .content-box{
+    float: right;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 361px;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas:hover .content-caracteristicas{
+    display: block;
+    z-index: 4;
+    font-size: 15px;
+    color: #fff;
+    padding-left: 53px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-1:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    z-index: 3;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-2:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    margin-left: -14.222%;
+    z-index: 5;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-3:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    margin-left: -28.444%;
+    z-index: 5;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-4:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    margin-left: -42.666%;
+    z-index: 5;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-5:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    margin-left: -56.888%;
+    z-index: 5;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-6:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    margin-left: -71.110%;
+    z-index: 5;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-7:hover{
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-position:  0px;
+    margin-left: -85.332%;
+    z-index: 5;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-1:hover + .box-caracteristicas{
+    display: none;
+}
+.section-caracteriscticas .container-caracteristicas .box-caracteristicas-2:hover + .box-caracteristicas-1{
+    display: none;
 }
 .section-recorrido-virtual .play{
     width: 110px;
@@ -183,7 +330,7 @@ section{padding: 80px 0 30px; position: relative;}
 .slick-next:before{ content: "SIGUIENTE";}
 .section-contacto{padding: 0; background: #fff;}
 .section-contacto .row{margin: 0;}
-.section-contacto .col-sm-4{padding: 0;}
+.section-contacto .col-sm-5, .section .col-sm-7{padding: 0;}
 .section-contacto .col-contacto{background: #fff; padding: 30px 15px;}
 input, textarea{font-family: 'BreeSerif-Regular', sans-serif;
     color: #525252!important;
@@ -213,7 +360,7 @@ footer .social-links li{display: inline-block; margin: 0 3px;}
     -o-transition: all .3s;
     transition: all .3s;
     height: 80px; overflow: hidden; z-index: 5;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -227,7 +374,7 @@ footer .social-links li{display: inline-block; margin: 0 3px;}
 }
 
 .buttom-mobile{
-    position: absolute;
+    position: fixed;
     top: 30px;
     right: 0px;
     z-index: 22;
@@ -238,6 +385,9 @@ footer .social-links li{display: inline-block; margin: 0 3px;}
     -o-transition: all .3s;
     transition: all .3s;
     right: 40px;
+    background: rgba(255, 255, 255, .65);
+    width: 60px;
+    height: 60px;
 }
 /*************ICON MENU OPEN AND CLOSE**/
 #nav-icon1 {
@@ -260,7 +410,7 @@ footer .social-links li{display: inline-block; margin: 0 3px;}
     border: 1px solid transparent;
     border-radius: 4px;
     float: right;
-    padding: 9px 10px;
+    padding: 13px 10px;
     z-index: 22;
 }
 button:focus {
@@ -330,7 +480,102 @@ button:focus {
     border-color: #edeef0;
 }
 .menu-responsive.open{height: 100vh;}
-.menu-responsive img{width: 200px;}
 .menu{
     padding-left: o; list-style: none; text-align: center;}
 .menu a{font-family: 'BreeSerif-Regular', sans-serif; color: #565607; font-size: 28px;}
+.menu a img{width: 50px; opacity: 0;}
+.menu a:hover{text-decoration: none; color: #979700;}
+.menu a:hover img{opacity: 1;}
+
+.title-movil{display: none;}
+@media (max-width: 575px) {
+    .header-banner {
+        height: 550px;
+    }
+    .header-banner .box-logo{margin-top: 0;}
+    .section-video .play {
+        width: 70px;
+    }
+    .title-desktop{display: none;}
+    .title-movil{display: block;}
+    .title-section {
+        font-size: 35px;
+    }
+    section {
+        padding: 40px 0 15px;
+    }
+    .section-bienvenido .play-360 {
+        width: 70px;
+    }
+    .section-recorrido-virtual .play {
+        width: 70px;
+    }
+    .section-el-lugar-ideal .box-title {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .section-aqui-viviras .box-title {
+        position: relative;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+    .section-aqui-viviras .box-content {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        right: 0;
+    }
+    .section-galeria .slider {
+        padding: 0 0px;
+    }
+    .section-galeria .slider .box-slider {
+        height: 218px;
+    }
+    .slick-arrow {
+        background: #979700;
+        height: 185px;
+        width: 42px;
+    }
+    .slick-next {
+        right: 5px;
+    }
+    .slick-next {
+        right: -8px;
+    }
+    .slick-prev {
+        left: -7px;
+        z-index: 3;
+    }
+    .slick-prev:before, .slick-next:before {
+        top: 59px;
+        font-size: 22px;
+    }
+    #map{height: 250px !important;}
+    .buttom-mobile { top: 0px; right: 0px; }
+    .section-caracteriscticas .container-caracteristicas { height: auto; }
+    .section-caracteriscticas .container-caracteristicas .box-caracteristicas {
+        height: 360px;
+        -ms-flex: 0 0 100%%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-position: center center;
+    }
+    .section-caracteriscticas .container-caracteristicas .box-caracteristicas:hover{
+        margin-left: 0!important;
+    }
+    .section-caracteriscticas .container-caracteristicas .box-caracteristicas:hover .content-box {
+        right: 0px;
+        bottom: 0;
+        width: 100%;
+    }
+    .section-caracteriscticas .container-caracteristicas .box-caracteristicas:hover .content-caracteristicas {
+        margin-bottom: 5px;
+    }
+    footer .footer-title {
+        font-family: 'BreeSerif-Regular', sans-serif;
+        margin-bottom: 10px;
+        margin-top: 25px;
+    }
+}
