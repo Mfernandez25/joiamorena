@@ -55,8 +55,8 @@
                             <h1 class="title-section ">Ver video</h1>
                         </div>
                         <div class="col-11">
-                            <video src="<?php bloginfo( 'template_directory' ) ?>/video/video.mp4" autoplay="autoplay" preload="" loop="loop" muted></video>
-                            <img class="play" src="<?php bloginfo( 'template_directory' ) ?>/img/i_play.png" alt="">
+                            <video id="ver-video" src="<?php bloginfo( 'template_directory' ) ?>/video/video.mp4" preload="" loop="loop" muted></video>
+                            <img class="play" id="play-video" src="<?php bloginfo( 'template_directory' ) ?>/img/i_play.png" alt="">
                         </div>
                         <div class="col-1 title-desktop">
                             <h1 class="title-section title-vertical title-video">Ver video</h1>
@@ -379,6 +379,12 @@
 
                     });
                 }
+                $('#play-video').click(function () {
+                    $('#ver-video').addClass('video-active');
+                    $('#ver-video').trigger('play');
+
+
+                });
                 <!-- ------------------- -->
                 $(function () {
 

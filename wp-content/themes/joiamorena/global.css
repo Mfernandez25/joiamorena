@@ -77,6 +77,15 @@ section{padding: 80px 0 30px; position: relative;}
     right: -24px;
     bottom: 50px;
 }
+.section-video video{
+    background: url("img/bg_video_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section-video video.video-active:: after{
+    display: none;
+}
 .title-video{
     position: absolute;
     top: 73px;
@@ -112,6 +121,12 @@ section{padding: 80px 0 30px; position: relative;}
     background-position: center;
     position: relative;
     height: 100%;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+    cursor: pointer;
 }
 .section-caracteriscticas .container-caracteristicas .box-caracteristicas::after{
     content: "";
