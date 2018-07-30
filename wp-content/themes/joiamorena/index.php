@@ -95,7 +95,7 @@
                                 precio por m2.</p>
                         </div>
                         <div class="col-sm-2  col-6 text-center">
-                            <img src="<?php bloginfo( 'template_directory' ) ?>/img/icon_3.png" alt="">
+                            <img src="<?php bloginfo( 'template_directory' ) ?>/img/icono_a.png" alt="">
                             <p>La Joya es un distrito con un alto potencial de crecimiento y desarrollo.</p>
                         </div>
                         <div class="col-sm-2 col-6 text-center">
