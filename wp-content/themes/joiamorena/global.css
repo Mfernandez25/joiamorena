@@ -525,6 +525,7 @@ button:focus {
     }
 }
 @media (max-width: 575px) {
+    .list-buttoms{display: none;}
     .header-banner {
         height: 550px;
     }
