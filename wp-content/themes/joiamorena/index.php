@@ -250,7 +250,7 @@
                                 <h1 class="title-section">Llegando a</h1>
                                 <h2 class="subtitle">JOIA MORENA</h2>
                             </div>
-                            <img src="<?php bloginfo( 'template_directory' ) ?>/img/mapa_como_llegar.png" alt="">
+                            <img src="<?php bloginfo( 'template_directory' ) ?>/img/mapa.png" alt="">
 
                         </div>
                     </div>
@@ -290,7 +290,7 @@
             </section>
             <section class="section-contacto" id="contactanos">
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-5 col-mapa">
                         <div id="map" style="height: 560px;"></div>
                         <script type="text/javascript">
                             function initMap() {
@@ -340,11 +340,7 @@
                         <div class="col-sm-4">
                             <p class="footer-title">Un protecto de:</p>
                             <img src="<?php bloginfo( 'template_directory' ) ?>/img/logo_anden.png" alt="">
-                            <ul class="social-links">
-                                <li><a href="" class="d-flex align-items-center justify-content-center"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="" class="d-flex align-items-center justify-content-center"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="" class="d-flex align-items-center justify-content-center"><i class="fab fa-youtube"></i></a></li>
-                            </ul>
+
                         </div>
                         <div class="col-sm-4">
                             <p class="footer-title">Contacto</p>
@@ -357,8 +353,12 @@
                             <p>Copyright © Todos los Derechos Reservados - 2018 </p>
                         </div>
                         <div class="col-sm-4">
-                            <p class="footer-title">Desarrollado por:</p>
-                            <img src="<?php bloginfo( 'template_directory' ) ?>/img/logo_unnu.png" alt="">
+                            <p class="footer-title">Síguenos en:</p>
+                            <ul class="social-links">
+                                <li><a href="https://www.facebook.com/Andeninversiones" target="_blank" class="d-flex align-items-center justify-content-center"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/andeninversiones/" target="_blank" class="d-flex align-items-center justify-content-center"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UC8atjtMNk5Gs2tp1PzqRfZw" target="_blank" class="d-flex align-items-center justify-content-center"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -380,7 +380,6 @@
                     });
                 }
                 $('#play-video').click(function () {
-                    $('#ver-video').addClass('video-active');
                     $('#ver-video').trigger('play');
 
 
