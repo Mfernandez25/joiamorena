@@ -55,7 +55,7 @@
                             <h1 class="title-section ">Ver video</h1>
                         </div>
                         <div class="col-11">
-                            <video id="ver-video" src="<?php bloginfo( 'template_directory' ) ?>/video/video.mp4" preload="" loop="loop" muted></video>
+                            <video id="ver-video" src="<?php bloginfo( 'template_directory' ) ?>/video/video.mp4" autoplay="autoplay" preload="" loop="loop"></video>
                             <img class="play" id="play-video" src="<?php bloginfo( 'template_directory' ) ?>/img/i_play.png" alt="">
                         </div>
                         <div class="col-1 title-desktop">
@@ -381,8 +381,9 @@
                 }
                 $('#play-video').click(function () {
                     $('#ver-video').trigger('play');
-
-
+                });
+                $('#ver-video').click(function() {
+                    this.paused ? this.play() : this.pause();
                 });
                 <!-- ------------------- -->
                 $(function () {
